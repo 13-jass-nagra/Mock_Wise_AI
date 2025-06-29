@@ -54,3 +54,4 @@ firebase-adminsdk*.json
 # Firebase secret
 jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
 firebase-adminsdk*.json
+*.env
