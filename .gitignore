@@ -35,6 +35,8 @@ next-env.d.ts
 
 # Firebase Secrets
 firebase-adminsdk*.json
+jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
+
 
 # Don't ignore your package files
 !package.json
