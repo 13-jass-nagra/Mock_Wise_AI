@@ -23,7 +23,6 @@ build/
 *.tsbuildinfo
 *.pem
 *.key
-*.json
 
 # Logs
 npm-debug.log*
@@ -36,12 +35,15 @@ next-env.d.ts
 
 # Firebase Secrets
 firebase-adminsdk*.json
-jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
 
-# Env files
-.env*
+# Don't ignore your package files
+!package.json
+!package-lock.json
+
+# Env files (secrets)
+.env
+.env.*
 .env.local
-.env.*.local
 
 # Vercel
 .vercel
@@ -49,7 +51,6 @@ jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
 # Git
 *.gitignore
 
-# Ignore all env files
-.env
-.env.*
-.env.local
+# Firebase secret
+jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
+firebase-adminsdk*.json
