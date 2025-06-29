@@ -48,3 +48,8 @@ jass13nagra-firebase-adminsdk-fbsvc-53f750dbed.json
 
 # Git
 *.gitignore
+
+# Ignore all env files
+.env
+.env.*
+.env.local
